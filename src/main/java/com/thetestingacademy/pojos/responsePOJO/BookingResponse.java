@@ -1,6 +1,6 @@
-package com.thetestingacademy.sample.ex_07_payloadManagement.Class.ManualWay.responsePOJO;
+package com.thetestingacademy.pojos.responsePOJO;
 
-import com.thetestingacademy.sample.ex_07_payloadManagement.Class.ManualWay.requestPOJO.Booking;
+import com.thetestingacademy.pojos.requestPOJO.Booking;
 
 public class BookingResponse {
 
