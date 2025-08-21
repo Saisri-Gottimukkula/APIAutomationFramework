@@ -1,9 +1,9 @@
-package com.thetestingacademy.pojos.responsePOJO;
+package com.thetestingacademy.pojos.responsePOJO.restfulbooker;
 
-import com.thetestingacademy.pojos.requestPOJO.Booking;
+
+import com.thetestingacademy.pojos.requestPOJO.restfulbooker.Booking;
 
 public class BookingResponse {
-
     private Integer bookingid;
     private Booking booking;
 

@@ -1,18 +1,13 @@
-package com.thetestingacademy.pojos.requestPOJO;
+package com.thetestingacademy.pojos.requestPOJO.restfulbooker;
 
 public class Booking {
 
     private String firstname;
     private String lastname;
     private Integer totalprice;
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
+    private Boolean depositpaid;
+    private BookingDates bookingdates;
+    private String additionalneeds;
 
     public String getFirstname() {
         return firstname;
@@ -20,6 +15,14 @@ public class Booking {
 
     public void setFirstname(String firstname) {
         this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
     public Integer getTotalprice() {
@@ -38,12 +41,12 @@ public class Booking {
         this.depositpaid = depositpaid;
     }
 
-    public Bookingdates getBookingDates() {
-        return bookingDates;
+    public BookingDates getBookingdates() {
+        return bookingdates;
     }
 
-    public void setBookingDates(Bookingdates bookingDates) {
-        this.bookingDates = bookingDates;
+    public void setBookingdates(BookingDates bookingdates) {
+        this.bookingdates = bookingdates;
     }
 
     public String getAdditionalneeds() {
@@ -53,9 +56,4 @@ public class Booking {
     public void setAdditionalneeds(String additionalneeds) {
         this.additionalneeds = additionalneeds;
     }
-
-    private Boolean depositpaid;
-    private Bookingdates bookingDates;
-    private String additionalneeds;
-
 }

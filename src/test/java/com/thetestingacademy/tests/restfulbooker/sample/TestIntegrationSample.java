@@ -1,4 +1,4 @@
-package com.thetestingacademy.tests.restfulBooker.sample;
+package com.thetestingacademy.tests.restfulbooker.sample;
 
 
 import io.qameta.allure.Description;

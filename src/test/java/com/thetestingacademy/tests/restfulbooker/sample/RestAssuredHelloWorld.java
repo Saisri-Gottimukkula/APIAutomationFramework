@@ -1,4 +1,4 @@
-package com.thetestingacademy.tests.restfulBooker.sample;
+package com.thetestingacademy.tests.restfulbooker.sample;
 
 public class RestAssuredHelloWorld {
     public static void main(String[] args) {

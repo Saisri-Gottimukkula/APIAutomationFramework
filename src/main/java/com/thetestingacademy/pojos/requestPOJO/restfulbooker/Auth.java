@@ -1,7 +1,6 @@
-package com.thetestingacademy.pojos.requestPOJO;
+package com.thetestingacademy.pojos.requestPOJO.restfulbooker;
 
 public class Auth {
-
     private String username;
     private String password;
 
@@ -20,5 +19,4 @@ public class Auth {
     public void setPassword(String password) {
         this.password = password;
     }
-
 }
